@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: #B5C18E;
+    color: white;
+    text-align: center;
+    height: 110px;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1000;
+}
+nav a   {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header a:hover{
+    border-radius: 20%;
+    background-color: #a1c398;
+    color: #FEFDED;
+}
+.headername {
+    font-size: 140%;
+}
+/* header */
+.page1,.page2,.page3,.page4 {
+    border: solid;
+    border-radius: 1dvi;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.page1,.page3,.info {
+    background-color: #F7DCB9;
+}
+body {
+    background-color: #DEAC80;
+    margin: 0;
+}
+/* page style */
+.page1{
+    margin-top: 88px;
+    padding-left: 30px;
+    padding-bottom: 30px;;
+}
+.icon {
+    float: right;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+.contect {
+    margin-top: 50px;
+    display: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.smallIcon  {
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.info, .page4pic{
+    align-items: center;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    float: none;
+}
+.info{
+    padding: 10px 10px 10px 10px;
+    border: solid;
+    border-radius: 5cqi;
+}
+
+.page3, .history{
+    columns: 3;
+    column-gap: 30px;
+    gap: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.idenfity {
+    max-width: 200px;
+    float:  none;
+}
+.smalltitle{
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.page4txt {
+    padding-bottom: 10px;
+}
+
+footer {
+    border-radius: 20%;
+    text-align: center;
+    background-color: #B5C18E;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 1000;
+    border: solid black 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.home footer:hover {
+    background-color: #a1c398;
+}
+
+@media screen and (max-width: 800px) {
+    article{
+        float: none;
+        width: 100%;
+    }
+    .history {
+        flex-direction: column;
+        float: left;
+    }
+    img {
+        max-width: 85%;
+        height: 90%;
+    }
+}
